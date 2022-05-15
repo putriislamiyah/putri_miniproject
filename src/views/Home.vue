@@ -15,26 +15,26 @@
         <div class="relative">
           <img src="../assets/sop.jpeg" alt="salad" class="w-full object-cover rounded-3xl">
           <div class="absolute bottom-8 left-8 text-left">
-            <p class="text-white text-xl font-semibold shadow">Soup Sayur</p>
-            <p class="text-white shadow">BREAKFAST MENU</p>
+            <router-link to='/soup' class="text-white text-xl font-semibold shadow">Soup Sayur</router-link> <br/>
+            <router-link to='/soup' class="text-white shadow">BREAKFAST MENU </router-link>
           </div>
         </div>
         <div class="relative">
           <img src="../assets/steak.jpeg" alt="salad" class="w-full object-cover rounded-3xl">
           <div class="absolute bottom-8 left-8 text-left">
-            <p class="text-white text-xl font-semibold shadow"> Beef Steak </p>
-            <p class="text-white shadow">LUNCH MENU</p>
+            <router-link to='/steak' class="text-white text-xl font-semibold shadow"> Beef Steak </router-link> <br/>
+            <router-link to='/steak' class="text-white shadow">LUNCH MENU </router-link>
           </div>
         </div>
         <div class="relative">
           <img src="../assets/tahu.jpeg" alt="salad" class="w-full object-cover rounded-3xl">
           <div class="absolute bottom-8 left-8 text-left">
-            <p class="text-white text-xl font-semibold shadow">Tofu Yummy</p>
-            <p class="text-white shadow">DINNER MENU</p>
+            <router-link to='/tofu' class="text-white text-xl font-semibold shadow">Tofu Yummy</router-link> <br/>
+            <router-link to='/tofu' class="text-white shadow"> DINNER MENU</router-link>
           </div>
         </div>
       </div>
-      <b/>
+      <br/>
           <footer class="grid grid-cols-2 px-32 py-16">
       <h1 class="text-4xl font-bold">Contact : </h1>
       <p> Email     : healtyfood.sby@gmail.com </p> <b/>

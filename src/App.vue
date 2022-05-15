@@ -8,7 +8,6 @@
     </div>
     <router-view/>
     <div>
-    <router-link class="relative" to="/"> LUNCH </router-link> 
     </div>
   </div>
 
